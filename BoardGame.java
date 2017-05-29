@@ -51,5 +51,6 @@ public interface BoardGame {
 	 *   1 if it is filled by the first player's piece, 
 	 *   2 if it is filled by the second player's piece.
      */
+
     public int[][] getBoard();  
 }
