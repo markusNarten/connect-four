@@ -53,9 +53,9 @@ public class Position {
 	 * @return whether they are equal
 	 */
 	public boolean equals(Object other) {
-	if(other instanceof Position) {
-		return(this.col == ((Position)other).getColumn() && this.row == ((Position)other).getRow());
-	}
+		if(other instanceof Position) {
+			return(this.col == ((Position)other).getColumn() && this.row == ((Position)other).getRow());
+		}
 	return false;
 	}
 }
