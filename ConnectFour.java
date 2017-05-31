@@ -1,6 +1,6 @@
 /**
  * a connect four game
- * @author 18helling/18narten
+ * @author 18hellinga/18narten
  *@version 5/30/2017
  */
 public class ConnectFour implements BoardGame {
