@@ -29,7 +29,6 @@ public class Position {
 	 * @return the row
 	 */
 	public int getRow() { return row;}
-	
 	/**
 	 * accessor method for the column of the position
 	 * @return the column
