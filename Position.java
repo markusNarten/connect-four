@@ -45,7 +45,7 @@ public class Position {
 	 * mutator method for the column
 	 * @param c the new column
 	 */
-	public void setColumn(int c) {col = c;}
+	public void setCol(int c) {col = c;}
 	
 	/**
 	 * compares to positions to see if they are equal
