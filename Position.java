@@ -29,7 +29,6 @@ public class Position {
 	 * @return the row
 	 */
 	public int getRow() { return row;}
-	
 	/**
 	 * accessor method for the column of the position
 	 * @return the column
@@ -53,9 +52,9 @@ public class Position {
 	 * @return whether they are equal
 	 */
 	public boolean equals(Object other) {
-	if(other instanceof Position) {
-		return(this.col == ((Position)other).getColumn() && this.row == ((Position)other).getRow());
-	}
+		if(other instanceof Position) {
+			return(this.col == ((Position)other).getColumn() && this.row == ((Position)other).getRow());
+		}
 	return false;
 	}
 }
